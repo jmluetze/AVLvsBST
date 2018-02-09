@@ -1,3 +1,16 @@
+/* Main file for the AVLvsBST program, by Jonathan Luetze
+ *
+ * Main Process:
+ * 1. Based on second argument -a or -b, read in functions are called
+ *    -a for AVL Tree, -b for BST
+ * 2. Grammar function makes sure string is in correct format
+ * 3. readCom reads the command file to determine what to do with the strings
+ * 4. Strings are either inserted or deleted in the BST or AVL Tree
+ *
+ * See method prototypes below for more details
+ *
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
